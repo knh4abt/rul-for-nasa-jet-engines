@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue) ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-orange) ![License](https://img.shields.io/badge/license-MIT-green)
 
-Predicting Remaining Useful Life (RUL) for turbofan jet engines using the NASA C-MAPSS dataset. This project demonstrates an end-to-end ML pipeline with feature engineering, model comparison, and online prediction capabilities.
+Every hour a turbofan stays mounted past its safe-life threshold is a safety risk; every hour it gets pulled early is wasted capacity. Predictive maintenance lives in that gap. This project predicts Remaining Useful Life (RUL) for the NASA C-MAPSS turbofan fleet — a benchmark for exactly that trade-off.
 
 RandomForest with engineered features achieves **RMSE ~46 cycles** on the test set, outperforming linear baselines by 4x.
 
